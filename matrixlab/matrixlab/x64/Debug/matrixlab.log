@@ -1,0 +1,92 @@
+﻿  pch.cpp
+  dllmain.cpp
+  matrix.cpp
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(1): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(1): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(2): message : использование предварительно скомпилированного заголовка
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.h(22,20): warning C4251: matrix::vec: class "std::vector<double,std::allocator<double>>" должен иметь dll-интерфейс для использования клиентами class "matrix"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.h(22): message : см. объявление "std::vector<double,std::allocator<double>>"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(17,45): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "FileErr"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(17): message : см. объявление "FileErr"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(23,45): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "ReadErr"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(23): message : см. объявление "ReadErr"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(29,48): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "NotASquare"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(29): message : см. объявление "NotASquare"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(35,46): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "DiffSize"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(35): message : см. объявление "DiffSize"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(41,45): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "Multipl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(41): message : см. объявление "Multipl"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(47,46): warning C4275: class "std::exception", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "BuildErr"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h(48): message : см. объявление "std::exception"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(47): message : см. объявление "BuildErr"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(60,2): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(64,23): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(72,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(73,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(88,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(89,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(105,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(106,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(132,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(133,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(160,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(161,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(171,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(172,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(183,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(194,9): warning C4101: next: неиспользованная локальная переменная
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(311,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(312,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(314,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(321,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(322,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(325,18): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(329,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(344,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(345,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(347,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(354,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(355,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(358,18): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(368,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(369,17): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(402,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(411,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(412,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(420,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(421,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(432,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(433,28): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(431,9): warning C4101: temp: неиспользованная локальная переменная
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(443,9): warning C4101: next: неиспользованная локальная переменная
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(458,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(465,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(484,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(493,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(502,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(564,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(565,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(568,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(575,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(577,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(582,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(585,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(590,21): warning C4018: <: несоответствие типов со знаком и без знака
+  PCA.cpp
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(1): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(1): message : Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(2): message : использование предварительно скомпилированного заголовка
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.h(22,20): warning C4251: matrix::vec: class "std::vector<double,std::allocator<double>>" должен иметь dll-интерфейс для использования клиентами class "matrix"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.h(22): message : см. объявление "std::vector<double,std::allocator<double>>"
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(32,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(33,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\PCA.cpp(45,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\matrixlab\matrix.cpp(560): warning C4715: readbinmatrix: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\x64\Debug\matrixlab.lib и объект C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\x64\Debug\matrixlab.exp
+  matrixlab.vcxproj -> C:\Users\chubb\OneDrive - НИУ Высшая школа экономики\Документы\matrixlab\x64\Debug\matrixlab.dll
