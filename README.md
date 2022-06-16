@@ -1,6 +1,6 @@
 ## MatrixLib  
 **MatrixLib содержит класс matrix и дочерние классы:**  
--idmatrix;  единичная  
+- idmatrix;  единичная  
 -diagmatrix;  диагональная  
 -lowtriangmatrix;   нижняя треугольная  
 -uptriangmatrix;  верхняя треугольная  
