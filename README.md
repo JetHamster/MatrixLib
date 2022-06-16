@@ -23,4 +23,7 @@ trace()
 
 Class PCA allows user to do NIPALS decomposition via method nip();
 
+DLL and lib files can be found in MatrixLib\matrixlab\Debug
+
+
 
