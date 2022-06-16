@@ -1,26 +1,26 @@
 # MatrixLib
 **MatrixLib содержит класс matrix и дочерние классы:**
-*idmatrix; <sub> единичная </sub>
-*diagmatrix; <sub> диагональная </sub>
-*lowtriangmatrix;  <sub> нижняя треугольная </sub>
-*uptriangmatrix; <sub> верхняя треугольная </sub>
-*symmatrix; <sub> симметричная </sub>
-*vect; <sub> вектор </sub>
+*idmatrix; > единичная 
+*diagmatrix; > диагональная 
+*lowtriangmatrix;  > нижняя треугольная 
+*uptriangmatrix; > верхняя треугольная 
+*symmatrix; > симметричная
+*vect; > вектор 
 
 **Перегружены операторы:**
 <<, +, -, *
 
 **Mетоды:**
-*hadanard(matrix &m1, matrix& m2) <sub> возвращает matrix - произведение Хадамара </sub>
-*center() <sub> центрирование </sub>
-*scale() <sub> шкалирование </sub>
-*matrixnorm() <sub> возвращает double - норму матрицы </sub>
-*matrixdet() <sub> возвращает double - детерминант матрицы</sub>
-*matrixrank()  <sub> возвращает int - ранг матрицы </sub>
-*hadanard(matrix &m1, matrix& m2) <sub> возвращает matrix - произведение Хадамара</sub>
-*transpose() <sub> транспонирование матрицы (работает для всех матриц) </sub>
-*trace() <sub> возвращает double - след матрицы </sub>
-*inverse() <sub> возвращает matrix -  обратную матрицу (если есть) </sub>
+*hadanard(matrix &m1, matrix& m2) > возвращает matrix - произведение Хадамара
+*center() > центрирование
+*scale() > шкалирование
+*matrixnorm() > возвращает double - норму матрицы
+*matrixdet() > возвращает double - детерминант матрицы
+*matrixrank() > возвращает int - ранг матрицы
+*hadanard(matrix &m1, matrix& m2) > возвращает matrix - произведение Хадамара
+*transpose() > транспонирование матрицы (работает для всех матриц)
+*trace() > возвращает double - след матрицы
+*inverse() > возвращает matrix -  обратную матрицу (если есть)
 
 **запись и чтение из бинарного файла**
 *void writebinmatrix(const char* filename, matrix &m)
